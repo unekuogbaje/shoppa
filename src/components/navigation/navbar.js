@@ -29,10 +29,10 @@ function Navbar() {
             <span className="nav-itemLinetwo">Shop</span>
           </div>
 
-          <div className="nav-itemBasket">
+          <Link className="nav-itemBasket" to='/checkout'>
             <ShoppingCartIcon className='shopping-cart' fontSize="large"/>
             <span className="nav-itemLinetwo">0</span>
-          </div>
+          </Link>
         </div>
       </div>
       <Outlet/>
