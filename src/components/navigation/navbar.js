@@ -20,7 +20,7 @@ function Navbar() {
 
         <div className="header-nav">
           <div className="nav-item">
-            <span className="nav-itemLineOne">Hello there!</span>
+            <span className="nav-itemLineOne">Hi there!</span>
             <span className="nav-itemLinetwo">Sign in?</span>
           </div>
 
@@ -29,8 +29,8 @@ function Navbar() {
             <span className="nav-itemLinetwo">Shop</span>
           </div>
 
-          <div className="nav-item">
-            <ShoppingCartIcon fontSize="large"/>
+          <div className="nav-itemBasket">
+            <ShoppingCartIcon className='shopping-cart' fontSize="large"/>
             <span className="nav-itemLinetwo">0</span>
           </div>
         </div>

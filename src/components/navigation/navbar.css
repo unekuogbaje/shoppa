@@ -1,5 +1,5 @@
 .header {
-    height: 60px;
+    height: 60px; 
     display: flex;
     align-items: center;
     background-color: #131921;
@@ -11,7 +11,7 @@
 .header-logo {
     display: flex;
     align-items: center;
-    color: #e8c6ff;
+    color: #ff9f00;
     margin: 0 25px;
 }
 
@@ -19,6 +19,11 @@
     margin-right: 10px;
 }
 
+.header-title {
+    text-decoration: none;
+    border: 0;
+    color: white;
+}
 
 .header-search {
     display: flex;
@@ -38,7 +43,7 @@
 .search-icon {
     padding: 5px;
     height: 22px !important;
-    background-color: #e8c6ff;
+    background-color: #ff9f00;
 }
 
 .header-nav {
@@ -50,7 +55,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 10px;  
     color: white;
 }
 
@@ -60,10 +65,10 @@
 
 .nav-itemLineTwo {
     font-size: 13px;
-    font-weight: 800;
+    font-weight: 800; 
 }
 
-.nav-itemBasket { 
+.nav-itemBasket {
     display: flex;
     align-items: center;
     color: white;
