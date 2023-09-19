@@ -3,9 +3,11 @@ import { Outlet, Link } from 'react-router-dom';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SearchIcon from '@mui/icons-material/Search';
 import { ReactComponent as Logo } from '../../assets/logo.svg';
+import { useStateValue } from '../context/state-provider';
 import './navbar.css'
 
 function Navbar() {
+  const [{basket}] = useStateValue();
   return (
     <Fragment>
       <div className="header">
@@ -31,7 +33,7 @@ function Navbar() {
 
           <Link className="nav-itemBasket" to='/checkout'>
             <ShoppingCartIcon className='shopping-cart' fontSize="large"/>
-            <span className="nav-itemLinetwo">0</span>
+            <span className="nav-itemLinetwo">{basket.length}</span>
           </Link>
         </div>
       </div>
