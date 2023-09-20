@@ -8,7 +8,7 @@ function Home() {
     <div>
       <div className='home'>
         <div className="home-container">
-          <img src='https://www.x-cart.com/wp-content/uploads/2019/01/ecommerce-768x278.jpg' alt='' className='home-image'/>
+          <img src='https://i.pinimg.com/236x/54/d6/24/54d62473da6562507a9f6570a4dd3d2b.jpg' alt='' className='home-image'/>
           
           <div className="home-row">
             <Product
@@ -24,6 +24,14 @@ function Home() {
             price={222}
             rating={5}
             image="https://i.pinimg.com/564x/71/23/17/712317db81f74d09643305bcc52fac5c.jpg"
+            />
+
+            <Product
+            id="42566691"
+            title="Serpentine"
+            price={666}
+            rating={5}
+            image="https://i.pinimg.com/236x/cf/65/11/cf65112587f8305c85bd8f6e025b1f54.jpg"
             />
           </div>
 
