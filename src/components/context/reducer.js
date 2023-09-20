@@ -27,13 +27,14 @@ const reducer = (state, action) => {
 
       let newBasket = [...state.basket];
 
-      if (index>=0) {
-        newBasket.splice(index, 1);
+      if (index>=0) { //if index is >= 0
+        newBasket.splice(index, 1); //remove the item who's index is sent & 4 each 1 item removed, update the basket (newBasket)
       } else {
         console.warn(
           `Can't remove product(id: ${action.id}) as its not in the basket!`
         )
       }
+        // return current basket state
 
       return {
         ...state,

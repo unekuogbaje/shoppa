@@ -21,10 +21,10 @@ function Navbar() {
         </div>
 
         <div className="header-nav">
-          <div className="nav-item">
+          <Link to='/login' className="nav-item">
             <span className="nav-itemLineOne">Hi there!</span>
             <span className="nav-itemLinetwo">Sign in?</span>
-          </div>
+          </Link>
 
           <div className="nav-item">
             <span className="nav-itemLineOne">Your</span>
