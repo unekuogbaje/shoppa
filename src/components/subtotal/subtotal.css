@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 310px;
+    width: 220px;
     height: 141px;
     padding: 20px;
     background-color: #f3f3f3;
@@ -19,7 +19,7 @@
     margin-right: 5px;
 }
 
-.subtotal > button {
+.payment {
     background: #ff9f00;
     border-radius: 2px;
     width: 100%;

@@ -26,11 +26,6 @@ function Navbar() {
             <span className="nav-itemLinetwo">Sign in?</span>
           </Link>
 
-          <div className="nav-item">
-            <span className="nav-itemLineOne">Your</span>
-            <span className="nav-itemLinetwo">Shop</span>
-          </div>
-
           <Link className="nav-itemBasket" to='/checkout'>
             <ShoppingCartIcon className='shopping-cart' fontSize="large"/>
             <span className="nav-itemLinetwo">{basket.length}</span>
