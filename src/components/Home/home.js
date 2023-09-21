@@ -53,7 +53,7 @@ function Home() {
             <Product
             id="32544691"
             title="MeYouZeek"
-            price={12}
+            price={1212}
             rating={3}
             image="https://i.pinimg.com/564x/9f/78/76/9f78762178ee6249dafa0d9a526394e0.jpg"
             />
@@ -63,21 +63,21 @@ function Home() {
             <Product
             id="32544691"
             title="In CogniTo"
-            price={77}
+            price={777}
             rating={4}
             image="https://i.pinimg.com/236x/9b/3f/3d/9b3f3dc99c6c4ac1736a9d68abff5eda.jpg"
             />
             <Product
             id="32544691"
             title="Lilith"
-            price={99}
+            price={999}
             rating={4}
             image="https://i.pinimg.com/236x/30/35/8c/30358c626379b70804db4c90e8fe4e9c.jpg"
             />
             <Product
             id="32544691"
             title="Sekhmet"
-            price={88}
+            price={888}
             rating={4}
             image="https://i.pinimg.com/236x/91/c4/5c/91c45c05d3640be996c872f475ff1c3f.jpg"
             />
